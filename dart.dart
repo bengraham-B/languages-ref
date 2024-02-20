@@ -28,6 +28,21 @@ void main(){
 		return;
 	}
 
+	if (userString.contains("goose") && !userString.contains("duck")){
+
+		if (userString.contains("Cape Town") || userString.contains("Cape") || userString.contains("Town")){
+
+			print("GOOSE_CPT FOR LIFE!");
+		}
+	} 
+	
+	else {
+		for (int month = 1; month <= 12; month++) {
+  				print("\r" + "${month.toString()}");
+			}
+		print("\r Nah \n");
+	}
+
 	if (userString.length > 5){
 		print("Your string is longer the five characters");
 	}
